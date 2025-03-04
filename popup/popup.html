@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XBearerFinder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>XBearerFinder</h1>
+            <div class="logo">🔑</div>
+        </header>
+        
+        <main class="token-container">
+            <label for="tokenDisplay">Bearer Token:</label>
+            <textarea id="tokenDisplay" readonly></textarea>
+            
+            <div class="button-group">
+                <button id="copyBtn" class="btn-primary">
+                    <span class="icon">📋</span> Copy Token
+                </button>
+                <button id="clearBtn" class="btn-secondary">
+                    <span class="icon">🗑️</span> Clear
+                </button>
+            </div>
+        </main>
+        
+        <div id="toast" class="toast-hidden"></div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

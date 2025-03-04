@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "XBearerFinder",
+    "description": "🔍 Capture and manage X/Twitter Bearer tokens for API debugging with secure handling and auto-detection.",
+    "version": "1.0",
+    "permissions": [
+        "webRequest",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.twitter.com/*",
+        "https://*.x.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": {
+            "16": "icons/icons8-jwt-color-16.png",
+            "32": "icons/icons8-jwt-color-32.png",
+            "96": "icons/icons8-jwt-color-96.png",
+            "128": "icons/icons8-jwt-color-120.png"
+        }
+    },
+    "icons": {
+        "128": "icons/icons8-jwt-color-120.png"
+    }
+}
