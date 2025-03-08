@@ -22,7 +22,7 @@
 6. **Gunakan tombol "Clear"** untuk menghapus token dari tampilan jika diperlukan.
 
 ## 📸 Tangkapan Layar
-![Image](https://github.com/user-attachments/assets/60c81401-ca81-4393-983c-d38750c015d2)
+![Image](https://github.com/user-attachments/assets/2e5658bf-2c50-42cb-97c0-562018a9ef9e)
 
 ## ⚠️ Disclaimer
 XBearerFinder hanya untuk keperluan pengujian dan debugging API. Penggunaan token yang diperoleh harus mematuhi kebijakan X (Twitter).
